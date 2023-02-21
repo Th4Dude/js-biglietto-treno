@@ -26,8 +26,4 @@ if ( etaUtente < 18) {
     console.log (`Prezzo scontato per over 65 del 40% per un totale di`, + prezzoTotale.toFixed(2) );
 }
 
-
-
-
-
-
+document.querySelector('h4').innerHTML = `Prezzo del biglietto ` +  prezzoTotale
